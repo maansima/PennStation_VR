@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56e13c056fe9949cfbe4c19f7a012459
+guid: 7b55541c083d34ea0aacaaed5d5fca7e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,13 +8,13 @@ ModelImporter:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -37,18 +37,18 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
