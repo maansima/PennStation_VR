@@ -29,10 +29,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/XRF_Scenes/Archive/Testing New Scripts.unity
     guid: 1a97b34716534ca47945b5d467f09abe
-  - enabled: 1
+  - enabled: 0
     path: Assets/XRF_Scenes/ExampleScene_Interaction_01.unity
     guid: 2964452fe26a63343b176c5758a2e148
-  - enabled: 1
+  - enabled: 0
     path: Assets/XRF_Scenes/ExampleScene_Interaction_02.unity
     guid: 2c822b16ce570f24ea870a981c76b94a
   - enabled: 0
@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/STUDENT_Scenes/Archive/In Class 07 Book in Hand etc.unity
     guid: 7eab1e2afa210c342bf2286d8805fc27
+  - enabled: 1
+    path: Assets/STUDENT_Scenes/WaitingRoom.unity
+    guid: 871875ef0d7544d0da8171da274ae961
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8ce81e0bf68ac3e4abd42d74b53a395e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 52eaa7aad8898ee4c8264272118be8eb, type: 2}
