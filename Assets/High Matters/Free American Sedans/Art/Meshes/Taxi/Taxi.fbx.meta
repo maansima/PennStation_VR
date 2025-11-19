@@ -1,34 +1,59 @@
 fileFormatVersion: 2
-guid: 239bf610350b3406ba9acacdcc233097
+guid: 14cce29ad9058904d96cc3067402803d
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 21300
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb151 (1)
-    second: {fileID: 4030167550445218095, guid: fcb5ec1dcd7fe4822ad4fdd29410477e, type: 3}
+      name: Car_LightForward
+    second: {fileID: 2100000, guid: 714536274e3ceef4898c5ee641fb8dc3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb151 [imported]
-    second: {fileID: 7893169074280785463, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
+      name: Car_Turnlight_L
+    second: {fileID: 2100000, guid: 6550362f900c7254a910631b3ad601a6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb152 (1)
-    second: {fileID: -844387141023149278, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
+      name: Car_Turnlight_R
+    second: {fileID: 2100000, guid: 9c6f93c757bd66742bd094a2e94293b2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb153 (1)
-    second: {fileID: -7340042549136433923, guid: 47ca998418b62472aa408c2536d09dad, type: 3}
+      name: Car_backLight
+    second: {fileID: 2100000, guid: 07f70d45f361982488eca993b45e378b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb158 (1)
-    second: {fileID: 4251733457275027114, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
+      name: Car_base_color
+    second: {fileID: 2100000, guid: 589a951359bc42244877dc077fa874b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_detail
+    second: {fileID: 2100000, guid: 8a96de6a4d0a971488524f3cf67371f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_number
+    second: {fileID: 2100000, guid: ae399ab536426b54fb6eb6c6b079e23c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_stopLight
+    second: {fileID: 2100000, guid: c668dda1c47d89f4ea6837734d817a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car_taxi
+    second: {fileID: 2100000, guid: 901ef80ba12ac9d40b9a78b4f4b6deac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 19f725798471f1849bf461a95ab8f3da, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -62,18 +87,17 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -93,7 +117,6 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -126,7 +149,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 239bf610350b3406ba9acacdcc233097
+guid: 667175b4abb5a4a90880a5003a52007c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,28 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: nyb151 (1)
-    second: {fileID: 4030167550445218095, guid: fcb5ec1dcd7fe4822ad4fdd29410477e, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: nyb151 [imported]
-    second: {fileID: 7893169074280785463, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: nyb152 (1)
-    second: {fileID: -844387141023149278, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: nyb153 (1)
-    second: {fileID: -7340042549136433923, guid: 47ca998418b62472aa408c2536d09dad, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: nyb158 (1)
-    second: {fileID: 4251733457275027114, guid: 1441f57da6617402abe0efcce233a47b, type: 3}
+      name: yellowcab28_lambert2
+    second: {fileID: 2100000, guid: 22275818604d84468b157d1f383c5531, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
