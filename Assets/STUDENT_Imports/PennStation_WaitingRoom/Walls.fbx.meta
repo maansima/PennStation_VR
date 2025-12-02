@@ -3,7 +3,27 @@ guid: 323f7841e7ca94c468fbea600cb59f3b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Custom
+    second: {fileID: 2100000, guid: 61e6a380a529343c3835ebcec2f87d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OctoCoffer
+    second: {fileID: 2100000, guid: 4932074adf3926d4494f7352f3ce8fa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Squarecoffer
+    second: {fileID: 2100000, guid: 596ede164e45c8347a4fe38dd28621ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: beige
+    second: {fileID: 2100000, guid: 8e2340aa41f444db0942f24a5fd63860, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
