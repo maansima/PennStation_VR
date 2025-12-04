@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaitTillAnimationComplete : MonoBehaviour
+public class MM_WaitTillAnimationComplete : MonoBehaviour
 {
     public BoxCollider colliderToEnable;
 
