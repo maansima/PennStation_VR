@@ -1,50 +1,52 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
-public class MM_RandomWalking : MonoBehaviour
+public class MM_StraightLinePatrol : MonoBehaviour
 {
-    NavMeshAgent agent;
+    public float distance = 10f;   // how far forward he walks before turning
+    public float stopThreshold = 0.2f;
 
-    [SerializeField] float range = 10f;
+    NavMeshAgent agent;
+    Vector3 startPos;
+    Vector3 forwardDir;
+    bool goingForward = true;
 
     void Start()
     {
-        Debug.Log("START called on " + gameObject.name);
         agent = GetComponent<NavMeshAgent>();
+
+        // Record starting position and initial forward direction
+        startPos = transform.position;
+        forwardDir = transform.forward.normalized;
+
+        // Begin by walking forward
+        MoveToTarget();
     }
 
     void Update()
     {
-        Debug.Log("UPDATE running on " + gameObject.name);
+        if (!agent.isOnNavMesh) return;
 
-        if (!agent.isOnNavMesh)
+        if (!agent.pathPending && agent.remainingDistance < stopThreshold)
         {
-            Debug.LogWarning("Agent is NOT on a NavMesh! " + gameObject.name);
-            return;
-        }
-
-        if (!agent.hasPath || agent.remainingDistance < 0.5f)
-        {
-            SetRandomDestination();
+            goingForward = !goingForward;  // flip direction
+            MoveToTarget();
         }
     }
 
-    void SetRandomDestination()
+    void MoveToTarget()
     {
-        Vector3 randomDirection = Random.insideUnitSphere * range;
-        randomDirection.y = 0f;
-        randomDirection += transform.position;
+        Vector3 direction = goingForward ? forwardDir : -forwardDir;
+        Vector3 target = startPos + direction * distance;
 
-        NavMeshHit navHit;
-        if (NavMesh.SamplePosition(randomDirection, out navHit, range, NavMesh.AllAreas))
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(target, out hit, 1f, NavMesh.AllAreas))
         {
-            agent.SetDestination(navHit.position);
-            Debug.Log("New destination: " + navHit.position);
+            agent.SetDestination(hit.position);
         }
         else
         {
-            Debug.LogWarning("Could not find NavMesh point near randomDirection.");
+            Debug.LogWarning("Couldn't find NavMesh at target: " + target);
         }
     }
 }
