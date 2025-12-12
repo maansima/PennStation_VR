@@ -488,6 +488,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wanderRadius: 30
   arrivalDistance: 0.8
-  minMoveDistance: 12
+  minMoveDistance: 5
   minIdleTime: 0.5
   maxIdleTime: 2
+  maxStepDistance: 20
+  edgeMargin: 0.5
