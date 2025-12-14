@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/STUDENT_Scenes/Archive/In Class 07 Book in Hand etc.unity
     guid: 7eab1e2afa210c342bf2286d8805fc27
   - enabled: 1
+    path: Assets/STUDENT_Scenes/Front_DriveUp.unity
+    guid: 67845f7f80568442c9c01af24a8dbe68
+  - enabled: 1
     path: Assets/STUDENT_Scenes/Front.unity
     guid: 1d291cd8182c04bfab4803682b7da340
   - enabled: 1
