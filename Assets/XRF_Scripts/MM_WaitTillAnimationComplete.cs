@@ -5,12 +5,14 @@ using UnityEngine;
 public class MM_WaitTillAnimationComplete : MonoBehaviour
 {
     public BoxCollider colliderToEnable;
+    public MeshRenderer rendererToEnable;
 
     void Start()
     {
         // Make sure collider starts OFF
-        if (colliderToEnable != null)
+        if (colliderToEnable != null && rendererToEnable != null)
             colliderToEnable.enabled = false;
+            rendererToEnable.enabled = false;
     }
 
     // This function will be called by an Animation Event
@@ -18,5 +20,6 @@ public class MM_WaitTillAnimationComplete : MonoBehaviour
     {
         if (colliderToEnable != null)
             colliderToEnable.enabled = true;
+            rendererToEnable.enabled = true;
     }
 }
