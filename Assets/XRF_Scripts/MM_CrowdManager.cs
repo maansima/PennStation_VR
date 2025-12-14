@@ -4,7 +4,7 @@ using UnityEngine.AI;
 public class MM_CrowdManager : MonoBehaviour
 {
     [Header("Which people can we spawn?")]
-    public GameObject[] pedestrianPrefabs;   // your 6 prefabs
+    public GameObject[] pedestrianPrefabs;   // person prefabs
 
     [Header("How many & where")]
     public int numberToSpawn = 20;
@@ -34,7 +34,7 @@ public class MM_CrowdManager : MonoBehaviour
 
     void SpawnOnePedestrian()
     {
-        // Pick one of your 6 prefabs at random
+        // Pick one person prefab at random
         GameObject prefab = pedestrianPrefabs[Random.Range(0, pedestrianPrefabs.Length)];
 
         // Find a point on the NavMesh near the center
