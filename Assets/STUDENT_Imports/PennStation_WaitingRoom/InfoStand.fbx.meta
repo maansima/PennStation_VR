@@ -1,9 +1,39 @@
 fileFormatVersion: 2
-guid: 323f7841e7ca94c468fbea600cb59f3b
+guid: 117e202dd71954f0388d34e366fa13b3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 4a09cb9e-a05c-401a-a9c1-c39866958d82
+    second: {fileID: 2100000, guid: b8e612596d22c4d688be5993e4212d90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Marble
+    second: {fileID: 2100000, guid: 7dcbf77fdc7ad48ab8a2b7df16ac63f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ChatGPT Image Nov 30, 2025, 06_43_05 PM
+    second: {fileID: 2100000, guid: 55d3d367951bc4a4a8187cd394170dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkBeige
+    second: {fileID: 2100000, guid: 8e2340aa41f444db0942f24a5fd63860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lunette Windows
+    second: {fileID: 2100000, guid: 44f2795af30ff10488477e6fb2e80b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_2
+    second: {fileID: 2100000, guid: fcb53f1b6fcb04bc3ae5d27c203c5a11, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

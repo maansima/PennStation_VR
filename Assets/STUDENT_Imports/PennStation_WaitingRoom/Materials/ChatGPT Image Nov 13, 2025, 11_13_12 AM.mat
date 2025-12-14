@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ChatGPT Image Nov 30, 2025, 06_43_05 PM
-  m_Shader: {fileID: 4800000, guid: cec6a606652c97448ac24048e61af588, type: 3}
+  m_Name: ChatGPT Image Nov 13, 2025, 11_13_12 AM
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -46,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4ee23bcdd0cb4480dbd9730032011a89, type: 3}
+        m_Texture: {fileID: 2800000, guid: 71b9f3e6fe0e3e942a1bd92002d27143, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
