@@ -4605,7 +4605,7 @@ Transform:
   m_GameObject: {fileID: 391335882}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 33.3, y: 14.657974, z: -19.25}
+  m_LocalPosition: {x: 32.44, y: 15.04, z: -19.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11476,7 +11476,7 @@ Transform:
   m_GameObject: {fileID: 1441955051}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 39.98, y: 16.4, z: -18.23}
+  m_LocalPosition: {x: 40.72, y: 15.352, z: -19.667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12384,7 +12384,7 @@ Transform:
   m_GameObject: {fileID: 1576433552}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 25.31, y: 14.657974, z: -19.64}
+  m_LocalPosition: {x: 24.45, y: 15.101, z: -19.894}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12589,6 +12589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WallDetailWR
       objectReference: {fileID: 0}
+    - target: {fileID: 2611422072114395280, guid: 9bb1afce6eab64326992d2e71c2a6d7b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 70c8aac763c9440d8970726e3423012b, type: 2}
     - target: {fileID: 6049344195451356983, guid: 9bb1afce6eab64326992d2e71c2a6d7b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -24693,6 +24697,7 @@ GameObject:
   - component: {fileID: 3271976950044667144}
   - component: {fileID: 2512575476891940580}
   - component: {fileID: 6262413044387735260}
+  - component: {fileID: 6262413044387735261}
   m_Layer: 0
   m_Name: Object_8
   m_TagString: Untagged
@@ -25547,6 +25552,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 237708433889718660, guid: 95d8d0d2197a7410b885c10d6c6ae891, type: 3}
+      propertyPath: m_NavMeshData
+      value: 
+      objectReference: {fileID: 23800000, guid: 95e617b38107b418db1894885de1bf19, type: 2}
     - target: {fileID: 992474865353719555, guid: 95d8d0d2197a7410b885c10d6c6ae891, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.66
@@ -26789,6 +26798,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 733751305697248771, guid: 6da755c46153847838d59861f804c413, type: 3}
+--- !u!208 &6262413044387735261
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5279970378758252146}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.3630004, y: 1.0840001, z: 4.3630004}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.034, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &6271029467080377055
 GameObject:
   m_ObjectHideFlags: 0
